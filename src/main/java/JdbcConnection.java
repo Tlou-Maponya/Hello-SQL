@@ -13,7 +13,6 @@ public class JdbcConnection {
             System.out.println("Opened database successfully");
             stmt = c.createStatement();
 
-
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println(e.getClass().getName()+": "+e.getMessage());
